@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D5E6FE41F469D180020E1AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E6FE31F469D180020E1AC /* main.m */; };
+		6D5E6FE71F469D180020E1AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E6FE61F469D180020E1AC /* AppDelegate.m */; };
+		6D5E6FEA1F469D180020E1AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E6FE91F469D180020E1AC /* ViewController.m */; };
+		6D5E6FED1F469D180020E1AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5E6FEB1F469D180020E1AC /* Main.storyboard */; };
+		6D5E6FEF1F469D180020E1AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5E6FEE1F469D180020E1AC /* Assets.xcassets */; };
+		6D5E6FF21F469D180020E1AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5E6FF01F469D180020E1AC /* LaunchScreen.storyboard */; };
+		6D5E6FFD1F469D180020E1AC /* SYGesLockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E6FFC1F469D180020E1AC /* SYGesLockDemoTests.m */; };
+		6D5E70081F469D180020E1AC /* SYGesLockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E70071F469D180020E1AC /* SYGesLockDemoUITests.m */; };
+		6D5E70181F46DBE90020E1AC /* SYGesLockDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E70171F46DBE90020E1AC /* SYGesLockDotView.m */; };
+		6D5E701B1F46DCB40020E1AC /* CAShapeLayer+SYGesLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E701A1F46DCB40020E1AC /* CAShapeLayer+SYGesLock.m */; };
+		6D5E701E1F46E0FC0020E1AC /* SYGesLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E701D1F46E0FC0020E1AC /* SYGesLockView.m */; };
+		6D7E2F501F4A867E00258343 /* SYGesLockPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E2F4F1F4A867E00258343 /* SYGesLockPresenter.m */; };
+		6D7E2F531F4A86C100258343 /* SYGesLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E2F521F4A86C100258343 /* SYGesLockVC.m */; };
+		6D7E2F571F4A878D00258343 /* SYGesLockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E2F561F4A878D00258343 /* SYGesLockModel.m */; };
+		6D7E2F5D1F4AC58800258343 /* SYGesLockInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E2F5C1F4AC58800258343 /* SYGesLockInfoView.m */; };
+		6D7E2F601F4AD12500258343 /* SYGesLockTipLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E2F5F1F4AD12500258343 /* SYGesLockTipLabel.m */; };
+		6D7E2F641F4AD2EF00258343 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E2F631F4AD2EF00258343 /* CALayer+Anim.m */; };
+		6DF1562E1F4C189900BA3F7A /* SYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1562A1F4C189900BA3F7A /* SYKeychain.m */; };
+		6DF1562F1F4C189900BA3F7A /* SYKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF1562D1F4C189900BA3F7A /* SYKeychainQuery.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D5E6FF91F469D180020E1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D5E6FD71F469D180020E1AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D5E6FDE1F469D180020E1AC;
+			remoteInfo = SYGesLockDemo;
+		};
+		6D5E70041F469D180020E1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D5E6FD71F469D180020E1AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D5E6FDE1F469D180020E1AC;
+			remoteInfo = SYGesLockDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D5E6FDF1F469D180020E1AC /* SYGesLockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYGesLockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5E6FE31F469D180020E1AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D5E6FE51F469D180020E1AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D5E6FE61F469D180020E1AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D5E6FE81F469D180020E1AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D5E6FE91F469D180020E1AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D5E6FEC1F469D180020E1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D5E6FEE1F469D180020E1AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D5E6FF11F469D180020E1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D5E6FF31F469D180020E1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D5E6FF81F469D180020E1AC /* SYGesLockDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYGesLockDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5E6FFC1F469D180020E1AC /* SYGesLockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYGesLockDemoTests.m; sourceTree = "<group>"; };
+		6D5E6FFE1F469D180020E1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D5E70031F469D180020E1AC /* SYGesLockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYGesLockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5E70071F469D180020E1AC /* SYGesLockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYGesLockDemoUITests.m; sourceTree = "<group>"; };
+		6D5E70091F469D180020E1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D5E70161F46DBE90020E1AC /* SYGesLockDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGesLockDotView.h; sourceTree = "<group>"; };
+		6D5E70171F46DBE90020E1AC /* SYGesLockDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGesLockDotView.m; sourceTree = "<group>"; };
+		6D5E70191F46DCB40020E1AC /* CAShapeLayer+SYGesLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+SYGesLock.h"; sourceTree = "<group>"; };
+		6D5E701A1F46DCB40020E1AC /* CAShapeLayer+SYGesLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+SYGesLock.m"; sourceTree = "<group>"; };
+		6D5E701C1F46E0FC0020E1AC /* SYGesLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGesLockView.h; sourceTree = "<group>"; };
+		6D5E701D1F46E0FC0020E1AC /* SYGesLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGesLockView.m; sourceTree = "<group>"; };
+		6D7E2F4E1F4A867E00258343 /* SYGesLockPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGesLockPresenter.h; sourceTree = "<group>"; };
+		6D7E2F4F1F4A867E00258343 /* SYGesLockPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGesLockPresenter.m; sourceTree = "<group>"; };
+		6D7E2F511F4A86C100258343 /* SYGesLockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGesLockVC.h; sourceTree = "<group>"; };
+		6D7E2F521F4A86C100258343 /* SYGesLockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGesLockVC.m; sourceTree = "<group>"; };
+		6D7E2F551F4A878D00258343 /* SYGesLockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGesLockModel.h; sourceTree = "<group>"; };
+		6D7E2F561F4A878D00258343 /* SYGesLockModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGesLockModel.m; sourceTree = "<group>"; };
+		6D7E2F5B1F4AC58800258343 /* SYGesLockInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGesLockInfoView.h; sourceTree = "<group>"; };
+		6D7E2F5C1F4AC58800258343 /* SYGesLockInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGesLockInfoView.m; sourceTree = "<group>"; };
+		6D7E2F5E1F4AD12500258343 /* SYGesLockTipLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGesLockTipLabel.h; sourceTree = "<group>"; };
+		6D7E2F5F1F4AD12500258343 /* SYGesLockTipLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGesLockTipLabel.m; sourceTree = "<group>"; };
+		6D7E2F611F4AD16D00258343 /* SYGesLockConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYGesLockConstant.h; sourceTree = "<group>"; };
+		6D7E2F621F4AD2EF00258343 /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
+		6D7E2F631F4AD2EF00258343 /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
+		6DF156271F4BCE8100BA3F7A /* SYPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYPrefixHeader.pch; sourceTree = "<group>"; };
+		6DF156291F4C189900BA3F7A /* SYKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYKeychain.h; sourceTree = "<group>"; };
+		6DF1562A1F4C189900BA3F7A /* SYKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYKeychain.m; sourceTree = "<group>"; };
+		6DF1562B1F4C189900BA3F7A /* SYKeychainConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYKeychainConstant.h; sourceTree = "<group>"; };
+		6DF1562C1F4C189900BA3F7A /* SYKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYKeychainQuery.h; sourceTree = "<group>"; };
+		6DF1562D1F4C189900BA3F7A /* SYKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYKeychainQuery.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D5E6FDC1F469D180020E1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5E6FF51F469D180020E1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5E70001F469D180020E1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D5E6FD61F469D180020E1AC = {
+			isa = PBXGroup;
+			children = (
+				6D5E6FE11F469D180020E1AC /* SYGesLockDemo */,
+				6D5E6FFB1F469D180020E1AC /* SYGesLockDemoTests */,
+				6D5E70061F469D180020E1AC /* SYGesLockDemoUITests */,
+				6D5E6FE01F469D180020E1AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D5E6FE01F469D180020E1AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D5E6FDF1F469D180020E1AC /* SYGesLockDemo.app */,
+				6D5E6FF81F469D180020E1AC /* SYGesLockDemoTests.xctest */,
+				6D5E70031F469D180020E1AC /* SYGesLockDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D5E6FE11F469D180020E1AC /* SYGesLockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6DF156281F4C189900BA3F7A /* KeyChain */,
+				6D7E2F541F4A873600258343 /* Model */,
+				6D7E2F4C1F4A83B000258343 /* Presenter */,
+				6D5E70151F46D5F20020E1AC /* View */,
+				6D5E6FE51F469D180020E1AC /* AppDelegate.h */,
+				6D5E6FE61F469D180020E1AC /* AppDelegate.m */,
+				6D5E6FE81F469D180020E1AC /* ViewController.h */,
+				6D5E6FE91F469D180020E1AC /* ViewController.m */,
+				6D5E6FEB1F469D180020E1AC /* Main.storyboard */,
+				6D5E6FEE1F469D180020E1AC /* Assets.xcassets */,
+				6D5E6FF01F469D180020E1AC /* LaunchScreen.storyboard */,
+				6D5E6FF31F469D180020E1AC /* Info.plist */,
+				6DF156271F4BCE8100BA3F7A /* SYPrefixHeader.pch */,
+				6D5E6FE21F469D180020E1AC /* Supporting Files */,
+			);
+			path = SYGesLockDemo;
+			sourceTree = "<group>";
+		};
+		6D5E6FE21F469D180020E1AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D5E6FE31F469D180020E1AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D5E6FFB1F469D180020E1AC /* SYGesLockDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D5E6FFC1F469D180020E1AC /* SYGesLockDemoTests.m */,
+				6D5E6FFE1F469D180020E1AC /* Info.plist */,
+			);
+			path = SYGesLockDemoTests;
+			sourceTree = "<group>";
+		};
+		6D5E70061F469D180020E1AC /* SYGesLockDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D5E70071F469D180020E1AC /* SYGesLockDemoUITests.m */,
+				6D5E70091F469D180020E1AC /* Info.plist */,
+			);
+			path = SYGesLockDemoUITests;
+			sourceTree = "<group>";
+		};
+		6D5E70151F46D5F20020E1AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E2F611F4AD16D00258343 /* SYGesLockConstant.h */,
+				6D7E2F621F4AD2EF00258343 /* CALayer+Anim.h */,
+				6D7E2F631F4AD2EF00258343 /* CALayer+Anim.m */,
+				6D5E70191F46DCB40020E1AC /* CAShapeLayer+SYGesLock.h */,
+				6D5E701A1F46DCB40020E1AC /* CAShapeLayer+SYGesLock.m */,
+				6D7E2F511F4A86C100258343 /* SYGesLockVC.h */,
+				6D7E2F521F4A86C100258343 /* SYGesLockVC.m */,
+				6D5E70161F46DBE90020E1AC /* SYGesLockDotView.h */,
+				6D5E70171F46DBE90020E1AC /* SYGesLockDotView.m */,
+				6D5E701C1F46E0FC0020E1AC /* SYGesLockView.h */,
+				6D5E701D1F46E0FC0020E1AC /* SYGesLockView.m */,
+				6D7E2F5B1F4AC58800258343 /* SYGesLockInfoView.h */,
+				6D7E2F5C1F4AC58800258343 /* SYGesLockInfoView.m */,
+				6D7E2F5E1F4AD12500258343 /* SYGesLockTipLabel.h */,
+				6D7E2F5F1F4AD12500258343 /* SYGesLockTipLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D7E2F4C1F4A83B000258343 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E2F4E1F4A867E00258343 /* SYGesLockPresenter.h */,
+				6D7E2F4F1F4A867E00258343 /* SYGesLockPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		6D7E2F541F4A873600258343 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E2F551F4A878D00258343 /* SYGesLockModel.h */,
+				6D7E2F561F4A878D00258343 /* SYGesLockModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DF156281F4C189900BA3F7A /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				6DF156291F4C189900BA3F7A /* SYKeychain.h */,
+				6DF1562A1F4C189900BA3F7A /* SYKeychain.m */,
+				6DF1562B1F4C189900BA3F7A /* SYKeychainConstant.h */,
+				6DF1562C1F4C189900BA3F7A /* SYKeychainQuery.h */,
+				6DF1562D1F4C189900BA3F7A /* SYKeychainQuery.m */,
+			);
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D5E6FDE1F469D180020E1AC /* SYGesLockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D5E700C1F469D180020E1AC /* Build configuration list for PBXNativeTarget "SYGesLockDemo" */;
+			buildPhases = (
+				6D5E6FDB1F469D180020E1AC /* Sources */,
+				6D5E6FDC1F469D180020E1AC /* Frameworks */,
+				6D5E6FDD1F469D180020E1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYGesLockDemo;
+			productName = SYGesLockDemo;
+			productReference = 6D5E6FDF1F469D180020E1AC /* SYGesLockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D5E6FF71F469D180020E1AC /* SYGesLockDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D5E700F1F469D180020E1AC /* Build configuration list for PBXNativeTarget "SYGesLockDemoTests" */;
+			buildPhases = (
+				6D5E6FF41F469D180020E1AC /* Sources */,
+				6D5E6FF51F469D180020E1AC /* Frameworks */,
+				6D5E6FF61F469D180020E1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D5E6FFA1F469D180020E1AC /* PBXTargetDependency */,
+			);
+			name = SYGesLockDemoTests;
+			productName = SYGesLockDemoTests;
+			productReference = 6D5E6FF81F469D180020E1AC /* SYGesLockDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D5E70021F469D180020E1AC /* SYGesLockDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D5E70121F469D180020E1AC /* Build configuration list for PBXNativeTarget "SYGesLockDemoUITests" */;
+			buildPhases = (
+				6D5E6FFF1F469D180020E1AC /* Sources */,
+				6D5E70001F469D180020E1AC /* Frameworks */,
+				6D5E70011F469D180020E1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D5E70051F469D180020E1AC /* PBXTargetDependency */,
+			);
+			name = SYGesLockDemoUITests;
+			productName = SYGesLockDemoUITests;
+			productReference = 6D5E70031F469D180020E1AC /* SYGesLockDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D5E6FD71F469D180020E1AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Echo;
+				TargetAttributes = {
+					6D5E6FDE1F469D180020E1AC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					6D5E6FF71F469D180020E1AC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D5E6FDE1F469D180020E1AC;
+					};
+					6D5E70021F469D180020E1AC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D5E6FDE1F469D180020E1AC;
+					};
+				};
+			};
+			buildConfigurationList = 6D5E6FDA1F469D180020E1AC /* Build configuration list for PBXProject "SYGesLockDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D5E6FD61F469D180020E1AC;
+			productRefGroup = 6D5E6FE01F469D180020E1AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D5E6FDE1F469D180020E1AC /* SYGesLockDemo */,
+				6D5E6FF71F469D180020E1AC /* SYGesLockDemoTests */,
+				6D5E70021F469D180020E1AC /* SYGesLockDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D5E6FDD1F469D180020E1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5E6FF21F469D180020E1AC /* LaunchScreen.storyboard in Resources */,
+				6D5E6FEF1F469D180020E1AC /* Assets.xcassets in Resources */,
+				6D5E6FED1F469D180020E1AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5E6FF61F469D180020E1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5E70011F469D180020E1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D5E6FDB1F469D180020E1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5E6FEA1F469D180020E1AC /* ViewController.m in Sources */,
+				6D7E2F501F4A867E00258343 /* SYGesLockPresenter.m in Sources */,
+				6D5E701E1F46E0FC0020E1AC /* SYGesLockView.m in Sources */,
+				6D7E2F601F4AD12500258343 /* SYGesLockTipLabel.m in Sources */,
+				6D7E2F571F4A878D00258343 /* SYGesLockModel.m in Sources */,
+				6D5E6FE71F469D180020E1AC /* AppDelegate.m in Sources */,
+				6DF1562F1F4C189900BA3F7A /* SYKeychainQuery.m in Sources */,
+				6D7E2F641F4AD2EF00258343 /* CALayer+Anim.m in Sources */,
+				6D5E6FE41F469D180020E1AC /* main.m in Sources */,
+				6D7E2F531F4A86C100258343 /* SYGesLockVC.m in Sources */,
+				6DF1562E1F4C189900BA3F7A /* SYKeychain.m in Sources */,
+				6D7E2F5D1F4AC58800258343 /* SYGesLockInfoView.m in Sources */,
+				6D5E701B1F46DCB40020E1AC /* CAShapeLayer+SYGesLock.m in Sources */,
+				6D5E70181F46DBE90020E1AC /* SYGesLockDotView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5E6FF41F469D180020E1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5E6FFD1F469D180020E1AC /* SYGesLockDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D5E6FFF1F469D180020E1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5E70081F469D180020E1AC /* SYGesLockDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D5E6FFA1F469D180020E1AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D5E6FDE1F469D180020E1AC /* SYGesLockDemo */;
+			targetProxy = 6D5E6FF91F469D180020E1AC /* PBXContainerItemProxy */;
+		};
+		6D5E70051F469D180020E1AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D5E6FDE1F469D180020E1AC /* SYGesLockDemo */;
+			targetProxy = 6D5E70041F469D180020E1AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D5E6FEB1F469D180020E1AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D5E6FEC1F469D180020E1AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D5E6FF01F469D180020E1AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D5E6FF11F469D180020E1AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D5E700A1F469D180020E1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D5E700B1F469D180020E1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D5E700D1F469D180020E1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/SYPrefixHeader.pch";
+				INFOPLIST_FILE = SYGesLockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SY.SYGesLockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D5E700E1F469D180020E1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/SYPrefixHeader.pch";
+				INFOPLIST_FILE = SYGesLockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SY.SYGesLockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D5E70101F469D180020E1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYGesLockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SY.SYGesLockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYGesLockDemo.app/SYGesLockDemo";
+			};
+			name = Debug;
+		};
+		6D5E70111F469D180020E1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SYGesLockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SY.SYGesLockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYGesLockDemo.app/SYGesLockDemo";
+			};
+			name = Release;
+		};
+		6D5E70131F469D180020E1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYGesLockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SY.SYGesLockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYGesLockDemo;
+			};
+			name = Debug;
+		};
+		6D5E70141F469D180020E1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SYGesLockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SY.SYGesLockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYGesLockDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D5E6FDA1F469D180020E1AC /* Build configuration list for PBXProject "SYGesLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5E700A1F469D180020E1AC /* Debug */,
+				6D5E700B1F469D180020E1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D5E700C1F469D180020E1AC /* Build configuration list for PBXNativeTarget "SYGesLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5E700D1F469D180020E1AC /* Debug */,
+				6D5E700E1F469D180020E1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D5E700F1F469D180020E1AC /* Build configuration list for PBXNativeTarget "SYGesLockDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5E70101F469D180020E1AC /* Debug */,
+				6D5E70111F469D180020E1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D5E70121F469D180020E1AC /* Build configuration list for PBXNativeTarget "SYGesLockDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5E70131F469D180020E1AC /* Debug */,
+				6D5E70141F469D180020E1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D5E6FD71F469D180020E1AC /* Project object */;
+}
